@@ -1,7 +1,8 @@
-from django.urls import path, include
-from .views import some_view, main_menu_view
+from django.urls import path
+from menuapp.views import draw_menu
+
+app_name = 'menuapp'
 
 urlpatterns = [
-    path('some-view/', some_view, name='some-view'),
-    path('main_menu/', main_menu_view, name='main-menu-view'),
+    path('<str:menu_name>/', draw_menu, name='draw_menu'),
 ]

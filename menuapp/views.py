@@ -1,10 +1,7 @@
 from django.shortcuts import render
-from .models import MenuItem
+from menuapp.models import MenuItem
 
 
-def some_view(request):
-    return render(request, 'your_template.html')
-
-
-def main_menu_view(request):
-    return render(request, 'menu_page.html')
+def draw_menu(request, menu_name):
+    menu_items = MenuItem.objects.filter(name=menu_name).select_related('parent')
+    return render(request, 'menuapp/menu.html', {'menu_items': menu_items})
