@@ -1,0 +1,16 @@
+{% load menu_tags %}
+
+{% for item in menu.children.all %}
+  <li>
+    <a href="{{ item.get_absolute_url }}" {% if item.get_absolute_url == request.path %}class="active"{% endif %}>{{ item.name }}</a>
+    {% if item.children.exists %}
+      <ul>
+        {% for child in item.children.all %}
+          <li>
+            <a href="{{ child.get_absolute_url }}" {% if child.get_absolute_url == request.path %}class="active"{% endif %}>{{ child.name }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </li>
+{% endfor %}
