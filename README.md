@@ -85,10 +85,10 @@ main_menu
 Пример готового проекта:
 
 ***Админка:***
-<img src="https://github.com/artyom-vah/tree_menu/blob/main/imgs/admin_1.png" alt="Описание картинки" width="900"/>
-<img src="https://github.com/artyom-vah/tree_menu/blob/main/imgs/admin_2.png" alt="Описание картинки" width="900"/>
-<img src="https://github.com/artyom-vah/tree_menu/blob/main/imgs/admin_3.png" alt="Описание картинки" width="900"/>
+<img src="https://github.com/IngAivar/Menu_App/blob/dev_2/imgs/admin_1.png" alt="Описание картинки" width="900"/>
+<img src="https://github.com/IngAivar/Menu_App/blob/dev_2/imgs/admin_2.png" alt="Описание картинки" width="900"/>
+<img src="https://github.com/IngAivar/Menu_App/blob/dev_2/imgs/admin_3.png" alt="Описание картинки" width="900"/>
 
 ***Вывод в браузер:***
-<img src="https://github.com/artyom-vah/tree_menu/blob/main/imgs/brows.png" alt="Описание картинки" width="400"/>
+<img src="https://github.com/IngAivar/Menu_App/blob/dev_2/imgs/brows.png" alt="Описание картинки" width="400"/>
 
