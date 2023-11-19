@@ -1,7 +1,6 @@
-# 
+# Menu App
 
-Реализация древовидного меню на Django
-# **tree_menu**
+## Древовидное меню в Django
 
 ТЗ 
 ```
@@ -21,12 +20,12 @@
 Задание выложить на гитхаб.
 ```
 
-### **Стек**
-![python version](https://img.shields.io/badge/Python-3.10-green)
+### Стек
+![python version](https://img.shields.io/badge/Python-3.10-yellow)
 ![django version](https://img.shields.io/badge/Django-4.17-blue)
 
 
-### **Запуск проекта в dev-режиме**
+### Запуск проекта в dev-режиме
 Инструкция ориентирована на операционную систему windows и утилиту git bash.<br/>
 Для прочих инструментов используйте аналоги команд для вашего окружения.
 
@@ -83,12 +82,13 @@ main_menu
             подопция_3.3(1)
 ```
 
-**Пример готового проекта**
+Пример готового проекта:
+
 ***Админка:***
-<img src="https://github.com/artyom-vah/tree_menu/blob/main/imgs/admin_1.jpg" alt="Описание картинки" width="900"/>
-<img src="https://github.com/artyom-vah/tree_menu/blob/main/imgs/admin_2.jpg" alt="Описание картинки" width="900"/>
-<img src="https://github.com/artyom-vah/tree_menu/blob/main/imgs/admin_3.jpg" alt="Описание картинки" width="900"/>
+<img src="https://github.com/artyom-vah/tree_menu/blob/main/imgs/admin_1.png" alt="Описание картинки" width="900"/>
+<img src="https://github.com/artyom-vah/tree_menu/blob/main/imgs/admin_2.png" alt="Описание картинки" width="900"/>
+<img src="https://github.com/artyom-vah/tree_menu/blob/main/imgs/admin_3.png" alt="Описание картинки" width="900"/>
 
 ***Вывод в браузер:***
-<img src="https://github.com/artyom-vah/tree_menu/blob/main/imgs/brows.jpg" alt="Описание картинки" width="400"/>
+<img src="https://github.com/artyom-vah/tree_menu/blob/main/imgs/brows.png" alt="Описание картинки" width="400"/>
 
