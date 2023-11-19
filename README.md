@@ -32,7 +32,7 @@
 1. Клонируйте репозиторий и перейдите в него в командной строке:
 
 ```
-git clone https://github.com/artyom-vah/tree_menu.git
+git clone https://github.com/IngAivar/Menu_App.git
 ```
 
 2. Установите и активируйте виртуальное окружение
